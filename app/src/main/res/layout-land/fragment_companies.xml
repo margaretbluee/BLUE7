@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="#ED756959"
+    android:orientation="horizontal"
+    tools:context=".CompaniesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="349dp"
+            android:layout_height="match_parent"
+            android:background="#ED786D60"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="9dp"
+                android:background="@color/tanAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/itemsListId"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.012"
+                tools:layout_editor_absoluteX="1dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTextid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="76dp"
+                    android:inputType="number"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTextname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTextafm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTexttel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTextfpa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/CompaniesEditTextadr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="textCapCharacters"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/fbcage"
+                    style="@android:style/Widget.Material.EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="1234567890"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AEA1A1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.844" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Α.Φ.Μ."
+                    android:textColor="#0C0909"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcage"
+                    app:layout_constraintHorizontal_bias="0.96"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintVertical_bias="0.728" />
+
+                <EditText
+                    android:id="@+id/fbcgender"
+                    style="@android:style/Widget.Material.EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="6944428600"
+
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AEA1A1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.236"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintVertical_bias="0.724" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="ΤΗΛ."
+                    android:textColor="#0C0909"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcgender"
+                    app:layout_constraintHorizontal_bias="0.875"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintVertical_bias="0.728" />
+
+                <EditText
+                    android:id="@+id/fbcrating"
+                    style="@android:style/Widget.Material.EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_margin="10sp"
+                    android:layout_marginBottom="24dp"
+                    android:hint="Γ. Παπανδρέου 38"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="10"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AEA1A1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.84"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <EditText
+                    android:id="@+id/fbcname"
+                    style="@android:style/Widget.Material.EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="8dp"
+                    android:hint="Παπαδοπούλου"
+                    android:inputType="textCapCharacters"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AEA1A1"
+                    app:layout_constraintBottom_toTopOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.444" />
+
+                <TextView
+                    android:id="@+id/textViewδδδ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="ID"
+                    android:textColor="#0C0909"
+                    app:layout_constraintBottom_toTopOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcid"
+                    app:layout_constraintHorizontal_bias="0.63"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/fbcid"
+
+                    style="@android:style/Widget.Material.EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="1"
+                    android:inputType="textCapCharacters"
+                    android:minHeight="48dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AEA1A1"
+                    app:layout_constraintBottom_toTopOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcname"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Προμηθευτής"
+                    android:textColor="#0C0909"
+                    app:layout_constraintBottom_toTopOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcname"
+                    app:layout_constraintHorizontal_bias="0.851"
+                    app:layout_constraintStart_toEndOf="@+id/textViewδδδ"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextname"
+                    app:layout_constraintVertical_bias="0.484" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="top" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="left" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="left" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Διεύθυνση"
+                    android:textColor="#0C0909"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/fbcrating"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/CompaniesEditTextid"
+                    app:layout_constraintVertical_bias="0.22000003" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bn_fbinsertc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_margin="9dp"
+                android:layout_marginLeft="13dp"
+                android:gravity="center"
+                android:text="ΕΙΣΑΓΩΓΗ"
+                android:textColor="@color/white"
+                app:backgroundTint="#352929"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/itemsListId"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:gravity="fill_horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/companiesListId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ED786D60"
+                android:baselineAligned="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

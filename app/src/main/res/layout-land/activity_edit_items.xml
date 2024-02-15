@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#C1937B60"
+
+    android:orientation="vertical"
+    tools:context=".edit_items">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:background="#C3F4EFE7"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CloseAlerti"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:layout_gravity="right"
+            android:layout_margin="10sp"
+            android:background="@drawable/ic_baseline_close_24"
+            android:backgroundTint="@color/black"
+            tools:ignore="RtlHardcoded"
+            tools:visibility="visible" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemsId"
+
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="242dp"
+                android:autofillHints="id"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_login"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ID "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:textAlignment="center"
+                tools:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/itemsName"
+
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="NAME"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.724"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΠΡΟΪΟΝ "
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/itemsName"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.555"
+                tools:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/itemsCount"
+
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="count"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_login"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΠΟΣΟΤΗΤΑ "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/itemsCount"
+                app:layout_constraintStart_toEndOf="@+id/itemsId"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:textAlignment="center" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/itemsPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="203dp"
+                android:autofillHints="price"
+
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="number"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView14"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΤΙΜΗ ΑΓΟΡΑΣ "
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.578"
+                tools:textAlignment="center" />
+
+            <SeekBar
+                android:id="@+id/seekBarit"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="3dp"
+                android:max="50"
+                android:progress="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/itemsPrice"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.684" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/itemsFpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="178dp"
+                android:autofillHints="fpa"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="number"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView16"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.8" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΦΠΑ "
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.578"
+                tools:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spinnerCateg"
+                android:layout_width="122dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/spin"
+                android:minHeight="48dp"
+                android:popupBackground="@drawable/button_sign_up"
+                android:spinnerMode="dialog"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/itemsCati"
+                app:layout_constraintStart_toEndOf="@+id/itemsFpa"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/itemsCati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+
+                android:autofillHints="CATEGORY"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:autofillHints="UPDATE"
+            android:backgroundTint="@color/tan"
+            android:text="ΤΡΟΠΟΠΟΙΗΣΗ"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

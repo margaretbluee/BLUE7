@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardBackgroundColor="@color/tanAccent"
+    app:cardElevation="33dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="1dp"
+
+                    android:background="#6B8A7565"
+
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_row="0"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+
+                        android:layout_margin="5dp"
+                        android:padding="7dp"
+                        app:cardCornerRadius="33dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/tanAccent"
+                            android:orientation="horizontal"
+                            android:padding="1dp">
+
+                            <TextView
+                                android:id="@+id/row_coname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@color/tanAccent"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:hint="ΟΝΟΜΑ ΕΠΩΝΥΜΟ"
+
+                                android:maxLength="15"
+                                android:paddingLeft="6dp"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/linearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/imgDeleteCom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:background="@drawable/ic_delete"
+                                    android:backgroundTint="#FC010202"
+                                    android:foregroundGravity="right"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:layout_conversion_absoluteHeight="25dp"
+                                    tools:layout_conversion_absoluteWidth="24dp" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_rowWeight="0"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="6dp"
+                        android:background="#AB585A1C"
+
+                        app:cardCornerRadius="22dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/tanAccent"
+                            android:gravity="right"
+                            android:orientation="vertical"
+                            android:padding="0dp">
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        android:background="#ABF3F6AF"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:layout_gravity="center"
+                            android:background="@color/tanAccent"
+                            android:orientation="horizontal"
+                            android:padding="1dp">
+
+                            <TextView
+                                android:id="@+id/textVi4424"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:gravity="center"
+                                android:text="THΛ:"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/row_telc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="6dp"
+                                android:background="@color/tanAccent"
+                                android:fontFamily="sans-serif-condensed-light"
+
+                                android:gravity="center"
+                                android:maxLength="10"
+                                android:paddingLeft="3dp"
+                                android:text="694448600"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="17sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="6dp"
+                        android:background="@color/tanAccent"
+                        android:padding="0dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/tanAccent"
+                            android:gravity="right"
+                            android:orientation="horizontal"
+                            android:padding="1dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#ABF3F6AF"
+                                android:backgroundTint="#03FFFFFF"
+                                android:gravity="end"
+
+                                android:orientation="horizontal"
+                                android:padding="4dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="25dp"
+                                    android:fontFamily="sans-serif-condensed-light"
+
+                                    android:text="Προμηθ."
+                                    android:textColor="#191414"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/row_coid"
+                                    android:layout_width="wrap_content"
+
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-condensed-light"
+                                    android:inputType="number"
+
+                                    android:maxLength="2"
+                                    android:text="ID :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                    android:textColor="#191414"
+                                    android:textSize="18sp"
+                                    android:textStyle="normal|bold" />
+
+                                <ImageView
+                                    android:id="@+id/imgEditCom"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/ic_edit"
+                                    android:backgroundTint="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        android:background="#ABF3F6AF"
+                        app:cardCornerRadius="32dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:layout_gravity="center"
+                            android:background="@color/tanAccent"
+                            android:orientation="horizontal"
+                            android:padding="0dp">
+
+
+                            <TextView
+                                android:id="@+id/textVi444"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|fill_horizontal"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Α.Φ.Μ.:"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="16sp"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/row_coafm"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|fill_horizontal"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:inputType="number"
+
+                                android:maxLength="10"
+                                android:text="0123456789"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="17sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="6dp"
+                        android:background="#AB585A1C"
+
+                        android:padding="4dp"
+
+                        app:cardCornerRadius="33dp"
+                        app:cardElevation="9dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="43dp"
+                            android:layout_gravity="fill_horizontal"
+                            android:background="@color/tanAccent"
+                            android:orientation="vertical"
+                            android:padding="1dp">
+
+                            <TextView
+                                android:id="@+id/row_adrc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="7dp"
+                                android:background="@color/tanAccent"
+                                android:fontFamily="sans-serif-condensed-light"
+
+                                android:inputType="text|textAutoComplete|textAutoCorrect|textCapCharacters"
+                                android:maxLength="15"
+                                android:paddingLeft="10dp"
+                                android:text="Mαρτίου 80"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                                android:textColor="#191414"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

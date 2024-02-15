@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129009776991",
+    "project_id": "blue7-e2d09",
+    "storage_bucket": "blue7-e2d09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129009776991:android:228332ea271988c6aa9eea",
+        "android_client_info": {
+          "package_name": "com.example.blue7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129009776991-ho8etav7c6es11qp7hvunh4srromkti0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLY8VPw0TPAytggZfte257w5-uqKopp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129009776991-ho8etav7c6es11qp7hvunh4srromkti0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

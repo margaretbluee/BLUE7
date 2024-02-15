@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#C1937B60"
+
+    android:orientation="vertical"
+    tools:context=".edit_transactions">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="5dp"
+        android:background="#C3F4EFE7"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/closeAlertdt"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:layout_gravity="right"
+            android:layout_margin="10sp"
+            android:background="@drawable/ic_baseline_close_24"
+            android:backgroundTint="@color/black"
+            tools:ignore="RtlHardcoded"
+            tools:visibility="visible" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="24dp"
+                android:layout_height="26dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ID "
+                android:textAlignment="center"
+                android:textColor="#F6EFEF"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.451"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.609"
+                tools:textAlignment="center"
+                tools:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/trdisc"
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="48dp"
+
+                android:autofillHints="price"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toEndOf="@+id/trcount"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.545" />
+
+            <TextView
+                android:id="@+id/trcount"
+
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="12dp"
+                android:autofillHints="count"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView13"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.622"
+                tools:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΠΟΣΟΤΗΤΑ "
+                android:textColor="#F6EFEF"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.03"
+                app:layout_constraintStart_toEndOf="@+id/trid"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.636"
+                tools:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/trid"
+
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginStart="242dp"
+                android:autofillHints="id"
+                android:clickable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:flow_horizontalAlign="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.622"
+                tools:clickable="false" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_login"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text=" ΚΕΡΔΟΣ "
+                android:textColor="#F6EFEF"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.231"
+                app:layout_constraintStart_toEndOf="@+id/trcount"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.636"
+                tools:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/trdate"
+                android:layout_width="78dp"
+                android:layout_height="51dp"
+                android:layout_margin="10sp"
+                android:hint="30/4/98"
+                android:inputType="textCapCharacters"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textColorHint="#AEA1A1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.191"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ημερομηνία"
+                android:textColor="#0C0909"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.056"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.557" />
+
+            <ImageView
+                android:id="@+id/imgCalendarT"
+                android:layout_width="37dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_calendar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.303"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.487" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="722dp"
+            android:layout_height="87dp"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trEditTextco"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="name"
+                android:textColor="#532D2D"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toEndOf="@+id/divider"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.759" />
+
+            <TextView
+                android:id="@+id/trcid"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+
+                android:autofillHints="CATEGORY"
+                android:gravity="bottom"
+                android:hint="προίοον"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:text="id"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.776"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.166"
+                tools:fontFamily="sans-serif-condensed-light" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID "
+                android:textColor="#070606"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.729"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.191"
+                tools:fontFamily="sans-serif-condensed-light" />
+
+            <Spinner
+                android:id="@+id/spinnerItems"
+                android:layout_width="112dp"
+
+                android:layout_height="27dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/spin"
+                android:minHeight="48dp"
+                android:popupBackground="@drawable/button_login"
+                android:radius="10dp"
+                android:spinnerMode="dialog"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.046"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.157" />
+
+            <Spinner
+                android:id="@+id/spinnerCompanies"
+                android:layout_width="169dp"
+
+                android:layout_height="26dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/spin"
+                android:minHeight="48dp"
+                android:popupBackground="@drawable/button_login"
+                android:radius="10dp"
+                android:spinnerMode="dialog"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.604"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.158" />
+
+            <TextView
+                android:id="@+id/TrEditTextii"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="name"
+                android:textColor="#532D2D"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.759" />
+
+            <TextView
+                android:id="@+id/triid"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+
+                android:autofillHints="CATEGORY"
+                android:gravity="bottom"
+                android:hint="προίοον"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:text="id"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.256"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.212"
+                tools:fontFamily="sans-serif-condensed-light" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID "
+                android:textColor="#070606"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.219"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.235"
+                tools:fontFamily="sans-serif-condensed-light" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="left" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="left" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="left" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="1dp"
+                android:layout_height="112dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:autofillHints="UPDATE"
+            android:backgroundTint="@color/tan"
+            android:text="ΤΡΟΠΟΠΟΙΗΣΗ"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

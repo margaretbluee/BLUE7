@@ -1,0 +1,169 @@
+<resources>
+
+    <string name="app_name">blue7</string>
+    <string-array name="range">
+        <item>5</item> <item>10</item>
+    </string-array>
+
+
+    <string name="user_name">blue</string>
+    <string name="user_password">1998</string>
+    <string name="login_preference">    com.example.blue7_loginPreference
+
+ </string>
+    <string name="login_status">  com.example.blue7_loginStatus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BLUE Studio</string>
+    <string name="nav_header_subtitle">blue.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Aρχική Σελίδα</string>
+    <string name="menu_gallery">Συλλογή</string>
+    <string name="menu_slideshow">Ιστορικό</string>
+
+    <string name="menu_items">Προϊόντα (ΑΓΟΡΑ)</string>
+    <string name="menu_companies">Προμηθευτές</string>
+    <string name="menu_transactions">Προμήθειες</string>
+
+    <string name="insert_items">ΕΙΣΑΓΩΓΗ ΠΡΟΙΟΝΤΟΣ</string>
+    <string name="insert_companies">ΕΙΣΑΓΩΓΗ ΠΡΟΜΗΘΕΥΤΗ</string>
+    <string name="insert_transactions">ΕΙΣΑΓΩΓΗ ΣΥΝΑΛΛΑΓΗΣ</string>
+
+    <string name="update_items">ΑΛΛΑΓΗ ΣΤΟΙΧΕΙΩΝ ΠΡΟΙΟΝΤΩΝ</string>
+    <string name="update_companies">ΕΝΗΜΕΡΩΣΗ ΣΤΟΙΧΕΙΩΝ ΠΡΟΜΗΘΕΥΤΩΝ</string>
+    <string name="update_transactions">ΤΡΟΠΟΠΟΙΗΣΗ ΣΥΝΑΛΛΑΓΗΣ</string>
+
+    <string name="delete_items">ΔΙΑΓΡΑΓΗ ΠΡΟΙΟΝΤΟΣ</string>
+    <string name="delete_companies">ΔΙΑΓΡΑΦΗ ΠΡΟΜΗΘΕΥΤΗ</string>
+    <string name="delete_transactions">ΑΚΥΡΩΣΗ ΣΥΝΑΛΛΑΓΗΣ</string>
+
+
+    <string name="menu_drawer_open">Open</string>
+    <string name="menu_drawer_close">Close</string>
+
+
+    <string name="id">ID</string>
+    <string name="afm">Α.Φ.Μ.</string>
+    <string name="companies_name">Eταιρία/Προμηθευτής: </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="promitheies">ΠΡΟΜΗΘΕΙΕΣ</string>
+    <string name="pelates">ΠΕΛΑΤΕΣ</string>
+    <string name="empty_not_saved">not shaved</string>
+    <string name="companies">Companies...</string>
+    <string name="save">SAVE</string>
+    <string name="hello_first_fragment">hi</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="todofg">TODO</string>
+    <string name="menu_boats">boats</string>
+    <string name="menu_fbitems">Προϊόντα Πώλησης</string>
+    <string name="menu_fbclients">Πελάτες</string>
+    <string name="menu_fbsales">Πωλήσεις</string>
+    <string name="items_name">items_name </string>
+    <string name="items_price">price</string>
+    <string name="items_count">count</string>
+    <string name="items_id">id</string>
+    <string name="items_categ">categ</string>
+    <string name="items_fpa">fpa\n</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="id_1">ID:1</string>
+    <string name="menu_FBItems">Προϊόντα Πώλησης</string>
+    <string name="channel_name">Channel_name\n</string>
+    <string name="channel_description">channel_description\n</string>
+    <string name="test">ΠΡΟΜΗΘΕΙΕΣ</string>
+
+    <string-array name="items_category">
+        <item>ΖΩΟΤΡΟΦΕΣ</item>
+        <item>ΕΙΔΗ ΚΗΠΟΥ</item>
+        <item>ΣΙΤΗΣΗ</item>
+        <item>ΕΝΔΥΜΑΣΙΑ</item>
+        <item>ΥΠΟΔΗΜΑΤA</item>
+        <item>ΔΙΑΚΟΣΜΙΣΗ</item>
+        <item>ΥΠΗΡΕΣΙΕΣ</item>
+        <item>ΨΙΛΙΚΑ</item>
+    </string-array>
+
+
+    <string-array name="items_name">
+        <item> ντομάτες </item>
+        <item> κρεμμυδια </item>
+        <item> νερο </item>
+        <item> αλευρι </item>
+        <item> μηλο </item>
+        <item> ποδηλατο </item>
+        <item> καφες </item>
+        <item> μπλουζα </item>
+        <item> αναπτηρας </item>
+
+    </string-array>
+
+    <string-array name="items_price">
+        <item> 2 € </item>
+        <item> 3 €  </item>
+        <item> 4 € </item>
+        <item> 7 €  </item>
+        <item> 1 € </item>
+        <item> 2 €  </item>
+        <item> 8 € </item>
+        <item> 7 €  </item>
+        <item> 4 € </item>
+        <item> 1 € </item>
+
+
+    </string-array>
+
+    <string-array name="items_counter">
+        <item> 22   </item>
+        <item> 31   </item>
+        <item> 45   </item>
+        <item> 71    </item>
+        <item> 11   </item>
+        <item> 12  </item>
+        <item> 21</item>
+        <item> 44  </item>
+        <item> 34 </item>
+        <item> 34 </item>
+
+
+    </string-array>
+    <string-array name="queries_array">
+        <item> query 1</item>
+        <item> query 2</item>
+        <item> query 3</item>
+        <item> query 4</item>
+        <item> query 5</item>
+        <item> query 6</item>
+        <item> query 7</item>
+        <item> query 8</item>
+        <item> query 9</item>
+        <item> query 10</item>
+        <item> query 11</item>
+        <item> query 12</item>
+        <item> query 13</item>
+        <item> query 14</item>
+        <item> query 15</item>
+    </string-array>
+    <string-array name="queries_description_array">
+        <item> 1. Εμφανίστε τον πίνακα Sailors.</item>
+        <item> 2. Εμφανίστε τον πίνακα Boats.</item>
+        <item> 3. Εμφανίστε τον πίνακα Reserves.</item>
+        <item> 4. Εμφανίστε τα ονόματα και τις ηλικίες όλων των ναυτικών.</item>
+        <item> 5. Εμφανίστε όλα τα στοιχεία των ναυτικών με κλιμάκιο (rating) μεγαλύτερο του 7.</item>
+        <item> 6. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση στη βάρκα με κωδικό 103.</item>
+        <item> 7. Εμφανίστε τους κωδικούς των ναυτικών που έχουν κάνει κράτηση σε κόκκινη βάρκα.</item>
+        <item> 8. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση σε κόκκινη βάρκα.</item>
+        <item> 9. Εμφανίστε τις ηλικίες των ναυτικών των οποίων τα ονόματα αρχίζουν με το γράμμα A και τελειώνουν με το γράμμα y και έχουν μήκος τουλάχιστον 4 χαρακτήρων.</item>
+        <item>10. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση και σε κόκκινη και σε πράσινη βάρκα.</item>
+        <item>11. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση σε κόκκινη, αλλά όχι σε πράσινη βάρκα</item>
+        <item>12. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση σε κόκκινη βάρκα (με εμφωλευμένο query).</item>
+        <item>13. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση σε κόκκινη βάρκα (με εμφωλευμένο query και exists).</item>
+        <item>14. Εμφανίστε τα ονόματα των ναυτικών και τη μέγιστη ηλικία για κάθε όνομα ναυτικού.</item>
+        <item>15. Εμφανίστε τα ονόματα των ναυτικών που έχουν κάνει κράτηση σε χρώμα βάρκας που θα ζητείται από το χρήστη.</item>
+    </string-array>
+
+</resources>

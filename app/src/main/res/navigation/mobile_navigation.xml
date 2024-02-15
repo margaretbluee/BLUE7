@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+
+    <fragment
+        android:id="@+id/nav_FBItems"
+        android:name="com.example.blue7.FB_ItemsFragment"
+        android:label="@string/menu_FBItems"
+        tools:layout="@layout/fragment_fb_items" >
+
+        <action
+            android:id="@+id/action_nav_boats_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_FBClients"
+        android:name="com.example.blue7.FB_ClientsFragment"
+        android:label="@string/menu_fbclients"
+        tools:layout="@layout/fragment_fb_clients" >
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_items"
+        android:name="com.example.blue7.ItemsFragment"
+        android:label="@string/menu_items"
+        tools:layout="@layout/fragment_items" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_companies"
+        android:name="com.example.blue7.CompaniesFragment"
+        android:label="@string/menu_companies"
+        tools:layout="@layout/fragment_companies" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.example.blue7.TransactionsFragment"
+        android:label="@string/menu_transactions"
+        tools:layout="@layout/fragment_transactions" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_FBSales"
+        android:name="com.example.blue7.FB_SalesFragment"
+        android:label="@string/menu_fbsales"
+        tools:layout="@layout/fragment_fb_sales">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.blue7.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+
+        <action
+            android:id="@+id/action_nav_home_to_dashb_ClientsFragment"
+            app:destination="@id/dashb_ClientsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_dashb_TransactionsFragment"
+            app:destination="@id/dashb_TransactionsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_dashb_CompaniesFragment"
+            app:destination="@id/dashb_CompaniesFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_dashb_FbitemsFragment"
+            app:destination="@id/dashb_FbitemsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_dashb_SalesFragment"
+            app:destination="@id/dashb_SalesFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_FBItems"
+            app:destination="@id/nav_FBItems" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashb_ClientsFragment"
+        android:name="com.example.blue7.Dashb_ClientsFragment"
+        android:label="fragment_dashb__clients"
+        tools:layout="@layout/fragment_dashb__clients" >
+        <action
+            android:id="@+id/action_dashb_ClientsFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashb_TransactionsFragment"
+        android:name="com.example.blue7.Dashb_TransactionsFragment"
+        android:label="fragment_dashb__transactions"
+        tools:layout="@layout/fragment_dashb__transactions" >
+        <action
+            android:id="@+id/action_dashb_TransactionsFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashb_CompaniesFragment"
+        android:name="com.example.blue7.Dashb_CompaniesFragment"
+        android:label="fragment_dashb_companies"
+        tools:layout="@layout/fragment_dashb_companies" >
+        <action
+            android:id="@+id/action_dashb_CompaniesFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashb_FbitemsFragment"
+        android:name="com.example.blue7.Dashb_FbitemsFragment"
+        android:label="fragment_dashb_fbitems"
+        tools:layout="@layout/fragment_dashb_fbitems" >
+        <action
+            android:id="@+id/action_dashb_FbitemsFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashb_SalesFragment"
+        android:name="com.example.blue7.Dashb_SalesFragment"
+        android:label="fragment_dashb_fbsales"
+        tools:layout="@layout/fragment_dashb_fbsales" >
+        <action
+            android:id="@+id/action_dashb_SalesFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>
